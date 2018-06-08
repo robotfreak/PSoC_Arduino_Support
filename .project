@@ -28,7 +28,7 @@ PSOC_Arduino_Support=~/PSoC_Creator/Arduino_Support CD=. filter="NULL"{
     flashWriteStatusPin_aliases.h
     Pin_LED.h
     Pin_LED_aliases.h
-    project.h
+    Project.h
     PWM.h
     receiveStartPin.h
     receiveStartPin_aliases.h
@@ -271,7 +271,7 @@ PSOC_Arduino_Support=~/PSoC_Creator/Arduino_Support CD=. filter="NULL"{
     SPIM_1_PVT.h
     SPIM_PVT.h
     SPI_Clock_In.h
-    SPI_MODE_REG.h
+    SPI_Mode_Reg.h
     SPI_SS_Stretch.h
     Timer1.h
     timer_clock.h
