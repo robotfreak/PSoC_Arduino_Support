@@ -16,7 +16,7 @@
     #include <Project.h>
 
     void initAnalogInput();
-    uint16_t analogRead(uint8_t pin);
+    uint16_t analogRead(uint32_t pin);
     
 #endif
 /* [] END OF FILE */

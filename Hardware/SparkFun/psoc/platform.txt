@@ -30,7 +30,7 @@ compiler.elf2hex.cmd=arm-none-eabi-objcopy
 compiler.ldflags=
 
 compiler.size.cmd=arm-none-eabi-size
-compiler.define=-DARDUINO=
+compiler.define=-DARDUINO=10800
 
 # this can be overriden in boards.txt
 build.extra_flags=

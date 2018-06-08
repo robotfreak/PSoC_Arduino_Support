@@ -2,7 +2,7 @@
 #define __arduino_h_
 
 extern "C" {
-#include <project.h>
+#include <Project.h>
 }
 
 #include "Arduino_HW_Interrupt.h"
@@ -20,7 +20,7 @@ extern "C" {
 #include "avr/dtostrf.h"
 #include "Arduino_Extended_IO.h"
 #include "itoa.h"
-#include "Wstring.h"
+#include "WString.h"
 #include <math.h>
 #include "WMath.h"
 #include "pins_arduino.h"

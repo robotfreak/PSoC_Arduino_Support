@@ -10,7 +10,7 @@
  * ========================================
 */
 extern "C" {
-#include <project.h>
+#include <Project.h>
 }
 
 #include <Arduino_Random.h>

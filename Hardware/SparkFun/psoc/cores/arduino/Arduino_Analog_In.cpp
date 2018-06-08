@@ -10,7 +10,7 @@
  * ========================================
 */
 extern "C" {
-#include <project.h>
+#include <Project.h>
 }
 
 #include <Arduino_Analog_In.h>
@@ -21,7 +21,7 @@ void initAnalogInput()
     ADC_Start();
 }
 
-uint16_t analogRead(uint8_t pin)
+uint16_t analogRead(uint32_t pin)
 {
     if (pin > 19 || pin < 14) return 0;
     ADC_Mux_Select(pin-14);
